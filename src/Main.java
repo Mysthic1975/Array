@@ -13,7 +13,7 @@ public class Main {
         int Groesse;
         String st;
 
-        System.out.println("Bitte gebe die größe deines Arrays an");
+        System.out.println("Bitte gib die größe deines Arrays an");
         while (!s.hasNextInt()) {
             System.out.println("Ungültige Eingabe. Bitte geben Sie eine gültige Ganzzahl ein:");
             s.next();
@@ -22,7 +22,7 @@ public class Main {
         Zeichen = new char[Groesse];
 
         for (int i = 0; i < Groesse; i++) {
-            System.out.println("Hallo Benutzer gib deine " + i + " Zahl an");
+            System.out.println("Hallo Benutzer, gib deine " + i + " Zahl an");
             st = s.next();
             Zeichen[i] = st.charAt(0);
         }
