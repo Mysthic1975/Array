@@ -42,7 +42,6 @@ public class Main {
         if (Gleicheit)
             System.out.println("Die Arrays sind gleich");
 
-        // Erweiterung: Überprüfen Sie, ob ein bestimmtes Zeichen im Array vorhanden ist
         char[] zuSuchendeZeichen = {'a', 'b', 'c', 'd'};
         for (char zeichen : zuSuchendeZeichen) {
             if (istZeichenImArrayEnthalten(Zeichen, zeichen)) {
@@ -52,7 +51,6 @@ public class Main {
             }
         }
 
-        // Ergebnisse als Paare anzeigen
         for (int i = 0; i < minGroesse; i++) {
             System.out.println(Zeichen[i] + " - " + NummerZwei[i]);
         }
